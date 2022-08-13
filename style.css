@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito:wght@200;300;600;700 & display=swap');
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+html { 
+    height: 100%;}
+    body{
+        background-color: #ffffff;
+        flex-direction: column;
+        min-height: 100%;
+    }
+.header{
+    background-color: #E12F42;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 5px 10%;
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .logo img{
+    height: 80px;
+    width: auto;
+    transition: all 0.3s;
+}
+.header .logo img:hover{
+    transform: scale(1.2)
+}
+.header .nav-links{ 
+    list-style: none;
+}
+.header .nav-links li{
+    transform: scale(1.1);
+}
+.header .nav-links li{
+    display: inline-block;
+    padding:0 20px ;
+}
+.header .nav-links a{
+    font-size: 700;
+    color: aliceblue;
+    text-decoration: none;
+}
+.header .nav-links li a:hover{
+    color: black;
+    
+}
+.header .btn button{
+    font-weight: 400;
+    color: blanchedalmond;
+    padding: 9px 25px;
+    background: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.header .btn button:hover{
+    background-color: rgb(50, 17, 215);
+    color: aqua;
+    transform: scale(1.1);
+}
+.contenedor{
+    text-align: center;
+
+    
+}
+.contenedor .imagenprincipal{
+    width: 100%;
+    border: 1px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.contenedor p{
+    padding: 30px;
+}
+.contenedor h1{
+    padding: 10px;
+    height: 15px;
+
+}
+body {
+    margin: 0;
+    background-color: rgb(218, 218, 218);
+    font-family: nunito;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pie-de-pagina{
+    background-color: #E12F42;
+    text-align: center;
+    position: ;
+    margin-top: auto;
+    width: 100%;
+    height: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+
